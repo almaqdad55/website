@@ -1,0 +1,114 @@
+.skills {
+  text-align: center;
+  padding: 2rem;
+}
+
+.skills h1 {
+  color: var(--primary-dark-blue);
+  text-transform: capitalize;
+  font-family: 'Raleway';
+}
+
+.skills .circle {
+  position: relative;
+  margin: 0 auto;
+  margin-top: -3.5rem;
+  background: blue;
+  border-radius: 50%;
+  height: 6rem;
+  width: 6rem;
+}
+.skills img {
+  height: 3.5rem;
+  width: 3.5rem;
+}
+
+.skills .icon {
+  color: var(--primary-white);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4rem;
+  size: 5rem;
+}
+
+.skills .box {
+  height: auto;
+  border: 0.2125rem solid transparent;
+  margin-bottom: 2rem;
+  margin-top: 5rem;
+  background: white;
+  border-radius: 10px;
+  max-width: 10rem;
+  padding: 0.625rem;
+}
+
+.skills .box:hover {
+  border: 0.2125rem solid var(--primary-dark);
+  transition: 0.2s ease-in-out;
+
+  background: white;
+}
+
+.skills .box:hover .icon {
+  font-size: 5rem;
+  size: 7rem;
+  transition: 0.1s ease-in-out;
+}
+
+.skills .box:hover .circle {
+  background: blue;
+
+  /* transition: 0.4s ease-in-out; */
+}
+
+.skills .box:hover img {
+  height: 5rem;
+  width: 5rem;
+}
+
+.col-lg-2:nth-child(1) .box:hover {
+  border: 0.2125rem solid #f56941;
+  color: #f56941;
+  font-weight: bolder;
+}
+.col-lg-2:nth-child(2) .box:hover {
+  border: 0.2125rem solid #2962ff;
+  color: #2962ff;
+}
+.col-lg-2:nth-child(3) .box:hover {
+  border: 0.2125rem solid #f9d543;
+  color: #f8c90c;
+}
+.col-lg-2:nth-child(4) .box:hover {
+  border: 0.2125rem solid #62d4f3;
+  color: #62d4f3;
+}
+.col-lg-2:nth-child(5) .box:hover {
+  border: 0.2125rem solid #cc6699;
+  color: #cc6699;
+}
+.col-lg-2:nth-child(6) .box:hover {
+  border: 0.2125rem solid #283f4b;
+  color: #283f4b;
+}
+.col-lg-2:nth-child(7) .box:hover {
+  border: 0.2125rem solid #7952b3;
+  color: #7952b3;
+}
+.col-lg-2:nth-child(8) .box:hover {
+  border: 0.2125rem solid #00769d;
+  color: #00769d;
+}
+.col-lg-2:nth-child(9) .box:hover {
+  border: 0.2125rem solid #66d0ca;
+  color: #66d0ca;
+}
+
+@media (max-width: 992px) {
+  .skills .box {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+}
